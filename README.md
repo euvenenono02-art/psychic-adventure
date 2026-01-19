@@ -108,3 +108,77 @@ nav ul li a {
 }
 
 .moment-card img { width: 100%; border-radius: 5px; }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Anime Peak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">ANIME<span>PEAK</span></div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="about-section">
+        <div class="about-container">
+            <h1>The Legend Behind the Screen</h1>
+            <p>Welcome to my corner of the internet. I've spent years analyzing power levels, witnessing epic transformations, and cheering for the underdogs.</p>
+            
+            <h3>My Top 3 Anime</h3>
+            <ul class="anime-list">
+                <li>🔥 Dragon Ball Z</li>
+                <li>🌀 Naruto Shippuden</li>
+                <li>🏴‍☠️ One Piece</li>
+            </ul>
+
+            <p>I built this site to showcase the moments that make us want to go Super Saiyan in real life.</p>
+            
+            <a href="index.html" class="btn">Back to Badass Moments</a>
+        </div>
+    </section>
+
+</body>
+</html>
+/* About Page Specific Styles */
+.about-section {
+    padding: 100px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 800px;
+    background: #1a1a1a;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.about-container h1 {
+    color: #ff4d4d;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.anime-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.anime-list li {
+    margin: 10px 0;
+    padding: 10px;
+    background: #252525;
+    border-radius: 5px;
+}
