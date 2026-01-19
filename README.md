@@ -44,3 +44,67 @@
 
 </body>
 </html>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0b0b0b;
+    color: white;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #1a1a1a;
+}
+
+.logo span { color: #ff4d4d; }
+
+nav ul { list-style: none; display: flex; }
+nav ul li a { 
+    color: white; 
+    text-decoration: none; 
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    height: 60vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                url('https://images.unsplash.com/photo-1578632292335-df3abbb0d586?q=80&w=1000');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn {
+    background: #ff4d4d;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover { background: #cc0000; }
+
+/* Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 50px;
+}
+
+.moment-card {
+    background: #1a1a1a;
+    padding: 15px;
+    border-bottom: 4px solid #ff4d4d;
+}
+
+.moment-card img { width: 100%; border-radius: 5px; }
