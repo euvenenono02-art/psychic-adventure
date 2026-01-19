@@ -151,6 +151,137 @@ const music = document.getElementById("bgmusic");
 function playMusic() {
   music.play();
 }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health & Tips</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom, #d0f0c0, #a0e1a0);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      margin: 15px 0;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #1b5e20;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ffffff;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .tip {
+      background-color: rgba(255,255,255,0.9);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .tip img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .tip h2 {
+      margin: 0;
+      color: #2e7d32;
+    }
+
+    .tip p {
+      margin: 5px 0 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #2e7d32;
+      color: white;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Health & Tips</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="health.html">Health & Tips</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <div class="tip">
+      <img src="images/water.png" alt="Drink Water">
+      <div>
+        <h2>Stay Hydrated</h2>
+        <p>Drink at least 8 glasses of water a day to keep your body functioning properly and maintain energy levels.</p>
+      </div>
+    </div>
+
+    <div class="tip">
+      <img src="images/fruits.png" alt="Eat Healthy">
+      <div>
+        <h2>Eat a Balanced Diet</h2>
+        <p>Include fruits, vegetables, lean proteins, and whole grains in your meals for proper nutrition.</p>
+      </div>
+    </div>
+
+    <div class="tip">
+      <img src="images/exercise.png" alt="Exercise">
+      <div>
+        <h2>Exercise Regularly</h2>
+        <p>Engage in at least 30 minutes of physical activity every day to improve strength, mood, and overall health.</p>
+      </div>
+    </div>
+
+    <div class="tip">
+      <img src="images/sleep.png" alt="Sleep">
+      <div>
+        <h2>Get Enough Sleep</h2>
+        <p>Aim for 7-9 hours of sleep each night to help your body recover and stay focused throughout the day.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2026 YourWebsite | Healthy Living Tips
+  </footer>
+</body>
+</html>
 
 function pauseMusic() {
   music.pause();
